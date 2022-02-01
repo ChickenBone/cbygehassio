@@ -1,0 +1,14 @@
+{
+  "name": "C By GE",
+  "version": "0.0.1",
+  "slug": "c-by-ge",
+  "description": "Enables Wifi support for C By GE Bulbs",
+  "url": "",
+  "image": "",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "application",
+  "boot": "auto",
+  "panel_admin": false,
+  "host_network": true,
+  "privileged": ["NET_ADMIN", "SYS_ADMIN"]
+}
